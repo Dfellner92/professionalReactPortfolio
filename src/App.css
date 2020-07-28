@@ -1,38 +1,158 @@
-.App {
+body {
+  background-image: url("./components/assets/images/Screen\ Shot\ 2020-07-27\ at\ 6.12.15\ PM.png");
+  padding-bottom: 130px;
+}
+
+.active {
+  border: 1px solid #1a8a84 !important;
+  background: none !important;
+  color: #4aaaa5 !important;
+}
+
+a:hover {
+  background: #4aaaa5 !important;
+  color: white !important;
+}
+
+.nav-link {
+  color: #4aaaa5;
+  text-decoration: none;
+}
+
+.resume {
+  color:teal;
+  position: relative;
+  bottom: 0.5px;
+}
+
+.github {
+  position: relative;
+  bottom: 2px;
+}
+
+.linkedin {
+  position: relative;
+  bottom: 2px;
+}
+
+.container-fluid {
+  background-color: #ffffff;
+  border-bottom: 2px solid #cccccc;
+  padding: 0;
+}
+
+h1 {
+  color:#ffffff;
+  background-color:#4aaaa5;
+  margin:0 auto;
+  padding: 10px;
   text-align: center;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  margin: auto 0;
+  border:0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h2 {
+  color:#4aaaa5;
+  border-bottom: 2px solid #dddddd;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.midsection{
+  color: #777777;
+  background-color:#ffffff;
+  border: 1px solid #dddddd;
+  padding:50px;
+  position: relative;
+  top: 35px;
+}
+
+.profile-pic {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.bio {
+  margin: 20px;
+}
+.footer {
+  background-color: #666666;
+  color: #dddddd;
+  border-top: 8px solid #4aaaa5;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  width:100%;
+}
+
+.copyright {
+  position: relative;
+  top: 15px;
+}
+
+.portfolio-pic {
+  border: 1px solid #dddddd; 
+}
+
+.button-container {
+  margin-top: 20px;
+  /* margin: 20px; */
+}
+
+.deployedBtn {
+  background-color: #4aaaa5;
+  color:#ffffff;
+  font-size: 1em;
+  border: none;
+}
+
+.githubBtn {
+  background-color: rgb(43, 144, 226);
+  color:#ffffff;
+  font-size: 1em;
+  border: none;
+}
+
+button[type=button]:hover{
+  background-color:#666666;
+}
+
+button[type=submit] {
+  background-color: #4aaaa5;
+  color:#ffffff;
+  border: none;
+}
+
+button[type=submit]:hover{
+  background-color:#666666;
+}
+
+@media screen and (max-width: 640px) {
+  nav {
+      text-align: center;
+      padding:0px !important;
   }
+  .content {
+      padding: 0px 20px;
+  }    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width: 576px) {
+  nav {
+     justify-content: center;
   }
-  to {
-    transform: rotate(360deg);
-  }
+} 
+
+@media screen and (min-width: 992px) {
+  nav {
+     justify-content: flex-end;
+  }  
+
 }
