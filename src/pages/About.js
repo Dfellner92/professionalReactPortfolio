@@ -19,29 +19,19 @@ function About() {
                 />
                 <div className="bio">
                   <p>
-                    Hello! I currently work in higher education. Many of my
-                    responsibilities revolve around managing vendor software and
-                    related processes. This translates to eternally needing to
-                    (effectively) coordinate the translation of business and
-                    technical needs to the desired end product (new process,
-                    interface, enhancement, etc.).
+                    I am a student studying full-stack web development at Rutgers
+                    Coding Bootcamp. Here, I've learned that being a successful web 
+                    developer includes not just mastering technical skills, but
+                    also having a patient mindset. Listening to the voices 
+                    of collaborators and instructors, reviewing class materials, 
+                    and being able to explain myself when I have something to 
+                    contribute or ask a question have led me to excel in understanding 
+                    the course materials.
                   </p>
                   <p>
-                    I am a lifelong learner and always looking to expand my
-                    knowledge and skill set. I decided to become a coding
-                    bootcamp student to learn full-stack development. Even if
-                    I’m not the one doing development work, understanding the
-                    front end, back end, web and software development process,
-                    and developing well-rounded knowledge of data structures,
-                    will greatly enrichen the ability with which I can
-                    efficiently work with vendors, developers, and other
-                    stakeholders to drive a project or process to the best
-                    possible solutions.
-                  </p>
-                  <p>
-                    In my spare time (if I’ll even have any while in the
-                    bootcamp), I enjoy traveling and eating my way through
-                    anywhere I travel to.
+                    Now I can confidently build apps with only client-side code,
+                    with node/express server bases, and with React engines. Please,
+                    navigate to the portfolio page to see demonstrations.
                   </p>
                 </div>
               </Col>

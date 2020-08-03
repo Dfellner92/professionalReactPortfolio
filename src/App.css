@@ -81,6 +81,7 @@ h2 {
 
 .bio {
   margin: 20px;
+  color: black;
 }
 .footer {
   background-color: #666666;
@@ -99,6 +100,7 @@ h2 {
 
 .portfolio-pic {
   border: 1px solid #dddddd; 
+  min-height: 250px;
 }
 
 .button-container {

@@ -35,7 +35,7 @@ function Navbar() {
         </li>
         <a
           className="flex-sm-fill text-sm-center nav-link resume"
-          href={require("../assets/images/jane-doe-resume.pdf")}
+          href={require("../assets/images/resume.pdf")}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -63,7 +63,7 @@ function Navbar() {
         </a>
         <a
           className="flex-sm-fill text-sm-center nav-link"
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/in/daniel-fellner-4ab95414b/"
           target="_blank"
           rel="noopener noreferrer"
         >

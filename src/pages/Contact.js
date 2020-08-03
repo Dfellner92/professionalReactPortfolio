@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
-// import Col from "../components/Col";
 
 function ContactForm() {
   return (
@@ -17,7 +16,6 @@ function ContactForm() {
                   type="text"
                   id="name"
                   className="form-control"
-                  placeholder="Jane Smith"
                 />
               </div>
               <div className="form-group">
@@ -34,7 +32,7 @@ function ContactForm() {
                 <textarea
                   id="message"
                   className="form-control"
-                  placeholder="Write a message for Jen..."
+                  placeholder="Write a message"
                   rows="8"
                 ></textarea>
               </div>

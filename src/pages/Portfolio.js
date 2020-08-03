@@ -14,41 +14,41 @@ function Portfolio() {
             <Row>
               <Project
                 name="Password Generator"
-                imgPath={require("../components/assets/images/pw-generator.png")}
-                linkDeployed="https://jenjch.github.io/passwordGenerator/"
-                linkGithub="https://github.com/jenjch/passwordGenerator"
+                imgPath={require("../components/assets/images/passwordGenerator.png")}
+                linkDeployed="https://dfellner92.github.io/passwordGenerator/"
+                linkGithub="https://github.com/dfellner92/passwordGenerator"
               />
               <Project
                 name="Weather Dashboard"
-                imgPath={require("../components/assets/images/weather-app.PNG")}
+                imgPath={require("../components/assets/images/weatherDashboard.png")}
                 linkDeployed="https://dfellner92.github.io/weatherDashboard/"
                 linkGithub="https://github.com/dfellner92/weatherDashboard"
               />
               <Project
-                name="Movies & Groovies"
-                imgPath={require("../components/assets/images/movie-app.PNG")}
-                linkDeployed="https://jenjch.github.io/GroupProject1/"
-                linkGithub="https://github.com/jenjch/GroupProject1"
+                name="Itinerary Maker"
+                imgPath={require("../components/assets/images/ItineraryPlanner.png")}
+                linkDeployed="https://dfellner92.github.io/project1personal//"
+                linkGithub="https://github.com/dfellner92/project1personal"
               />
             </Row>
             <Row>
               <Project
-                name="Note Taker"
-                imgPath={require("../components/assets/images/note-taker2.PNG")}
-                linkDeployed="https://notetaker-5123534.herokuapp.com/"
-                linkGithub="https://github.com/jenjch/noteTaker"
+                name="Burger Eater"
+                imgPath={require("../components/assets/images/BurgerEater.png")}
+                linkDeployed="https://burger-eat-mysql.herokuapp.com/"
+                linkGithub="https://github.com/jenjch/burgerMySql"
               />
               <Project
-                name="Banh Mi Log"
-                imgPath={require("../components/assets/images/banhMi2.jpg")}
-                linkDeployed="https://blooming-wildwood-86554.herokuapp.com/"
-                linkGithub="https://github.com/jenjch/banhMiLog"
+                name="User Directory"
+                imgPath={require("../components/assets/images/userDirectory.png")}
+                linkDeployed="https://employee-tracker-dfellner.herokuapp.com/"
+                linkGithub="https://github.com/dfellner92/EmployeeTracker"
               />
               <Project
-                name="Podcast Collection"
-                imgPath={require("../components/assets/images/podcast-app.jpeg")}
-                linkDeployed="https://project2-020420.herokuapp.com/"
-                linkGithub="https://github.com/jenjch/project2"
+                name="Google Books Search"
+                imgPath={require("../components/assets/images/GoogleBooks.png")}
+                linkDeployed="https://google-book-search-dfellner.herokuapp.com/"
+                linkGithub="https://github.com/Dfellner92/googleBooksSearch"
               />
             </Row>
           </div>
