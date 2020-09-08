@@ -75,6 +75,20 @@ function Navbar() {
             className="linkedin"
           />
         </a>
+        <a
+          className="flex-sm-fill text-sm-center nav-link"
+          href={require("../assets/images/D.Fellner Certificate.pdf")}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={require("../assets/images/Screen Shot 2020-09-08 at 2.33.49 PM.png")}
+            alt="Certificate"
+            height="24"
+            width="29"
+            className="resume"
+          />
+        </a>
     </nav>
   );
 }
