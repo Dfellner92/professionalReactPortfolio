@@ -87,7 +87,7 @@ h2 {
   background-color: #666666;
   color: #dddddd;
   border-top: 8px solid #4aaaa5;
-  height: 60px;
+  height: 30px;
   position: fixed;
   bottom: 0;
   width:100%;
@@ -95,7 +95,6 @@ h2 {
 
 .copyright {
   position: relative;
-  top: 15px;
 }
 
 .portfolio-pic {
