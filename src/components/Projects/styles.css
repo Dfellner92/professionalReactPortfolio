@@ -34,5 +34,7 @@
 .text {
     color: #4AAAA5;
     font-size: 32px;
+    -webkit-text-stroke: .5px black; /* width and color */
+
 
 }
