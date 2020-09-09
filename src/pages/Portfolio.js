@@ -17,18 +17,21 @@ function Portfolio() {
                 imgPath={require("../components/assets/images/passwordGenerator.png")}
                 linkDeployed="https://dfellner92.github.io/passwordGenerator/"
                 linkGithub="https://github.com/dfellner92/passwordGenerator"
+                skillsUsed="Jquery, HTML, CSS"
               />
               <Project
                 name="Weather Dashboard"
                 imgPath={require("../components/assets/images/weatherDashboard.png")}
                 linkDeployed="https://dfellner92.github.io/weatherDashboard/"
                 linkGithub="https://github.com/dfellner92/weatherDashboard"
+                skillsUsed="AJAX, 3rd Party API, Local Storage"
               />
               <Project
                 name="Itinerary Maker"
                 imgPath={require("../components/assets/images/ItineraryPlanner.png")}
                 linkDeployed="https://dfellner92.github.io/project1personal//"
                 linkGithub="https://github.com/dfellner92/project1personal"
+                skillsUsed="Use of Multiple 3rd Party APIs"
               />
             </Row>
             <Row>
@@ -37,18 +40,26 @@ function Portfolio() {
                 imgPath={require("../components/assets/images/BurgerEater.png")}
                 linkDeployed="https://burger-eat-mysql.herokuapp.com/"
                 linkGithub="https://github.com/jenjch/burgerMySql"
+                skillsUsed="Node, Express, MySQL, Sequelize, MVC"
               />
               <Project
                 name="User Directory"
                 imgPath={require("../components/assets/images/userDirectory.png")}
                 linkDeployed="https://employee-tracker-dfellner.herokuapp.com/"
                 linkGithub="https://github.com/dfellner92/EmployeeTracker"
+                skillsUsed="React"
               />
               <Project
                 name="Google Books Search"
                 imgPath={require("../components/assets/images/GoogleBooks.png")}
                 linkDeployed="https://google-book-search-dfellner.herokuapp.com/"
                 linkGithub="https://github.com/Dfellner92/googleBooksSearch"
+                skillsUsed="MERN stack"
+              />
+            </Row>
+            <Row>
+              <Project
+                
               />
             </Row>
           </div>

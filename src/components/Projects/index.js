@@ -1,5 +1,6 @@
 import React from "react";
 import Col from "../Col";
+import "./styles.css";
 
 function Project(props) {
 
@@ -7,11 +8,16 @@ function Project(props) {
   return (
     <Col size="md-4 sm-12">
       <div className="button-container">
-        <img
-          className="img-fluid portfolio-pic"
-          src={props.imgPath}
-          alt={props.name}
-        />
+        <div className="fade-container">
+          <img
+            className="img-fluid portfolio-pic"
+            src={props.imgPath}
+            alt={props.name}
+          />
+          <div class="middle">
+            <div class="text">{props.skillsUsed}</div>
+          </div>
+        </div>
         <button
           type="button"
           className="btn btn-primary btn-lg btn-block deployedBtn"
