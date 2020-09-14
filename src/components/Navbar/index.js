@@ -35,7 +35,7 @@ function Navbar() {
         </li>
         <a
           className="flex-sm-fill text-sm-center nav-link resume"
-          href={require("../assets/images/resume.pdf")}
+          href={require("../assets/images/resume2.pdf")}
           target="_blank"
           rel="noopener noreferrer"
         >
