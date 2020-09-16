@@ -14,7 +14,7 @@ function About() {
               <Col size="sm-12">
                 <img
                   className="img-fluid profile-pic float-left"
-                  src={require("../components/assets/images/image0.jpeg")}
+                  src={require("../components/assets/images/ProfilePic.jpg")}
                   alt="Me and doggo!"
                 />
                 <div className="bio">

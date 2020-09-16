@@ -15,6 +15,8 @@ function Project(props) {
             alt={props.name}
           />
           <div class="middle">
+            <div class="text">{props.summary}</div>
+            <br/>
             <div class="text">{props.skillsUsed}</div>
           </div>
         </div>
