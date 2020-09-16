@@ -42,7 +42,11 @@ function Portfolio() {
                 imgPath={require("../components/assets/images/ItineraryPlanner.png")}
                 linkDeployed="https://dfellner92.github.io/project1personal//"
                 linkGithub="https://github.com/dfellner92/project1personal"
-                summary="Reveals "
+                summary="Reveals nearby hotspots based off the weather. The search sends 
+                two queries: data received by the Google Places API is filtered by the 
+                result of the query to the OpenWeather API, which requests the current 
+                outdoor conditions.
+                "
                 skillsUsed="HTML, CSS, jQuery, Bootstrap, Use of Multiple 3rd Party APIs"
               />
             </Row>
@@ -62,16 +66,22 @@ function Portfolio() {
                 imgPath={require("../components/assets/images/userDirectory.png")}
                 linkDeployed="https://employee-tracker-dfellner.herokuapp.com/"
                 linkGithub="https://github.com/dfellner92/EmployeeTracker"
-                summary=""
-                skillsUsed="React"
+                summary="
+                          A front-end React App meant to sort data. Sort, filter,
+                          and search capabilities are displayed
+                "
+                skillsUsed="Bootstrap, 3rd Party API, Local Storage, search algorithms, React"
               />
               <Project
                 name="Google Books Search"
                 imgPath={require("../components/assets/images/GoogleBooks.png")}
                 linkDeployed="https://google-book-search-dfellner.herokuapp.com/"
                 linkGithub="https://github.com/Dfellner92/googleBooksSearch"
-                summary=""
-                skillsUsed="MERN stack"
+                summary="
+                          A simple MERN app that accesses the Google Books API and
+                          then creates data which can be updated and deleted
+                "
+                skillsUsed="MongoDB, Express, React, Node.js, Bootstrap"
               />
             </Row>
           </div>
