@@ -15,20 +15,21 @@ function About() {
                 <img
                   className="img-fluid profile-pic float-left"
                   src={require("../components/assets/images/ProfilePic.jpg")}
-                  alt="Me and doggo!"
+                  alt="Me"
                 />
                 <div className="bio">
                   <p>
-                    Entry-level Web Developer pursuing a role in back-end development.
-                    I plan to approach a position the same way I performed in my cohort:
-                    listening to the voices of collaborators and instructors, 
-                    carefully reviewing materials, 
-                    and taking the time to make sure people understand me.
+                    I am a developer with experience building fullstack applications, but 
+                    at this time, I am shifting my focus to pursuing a role in front-end 
+                    development. I was voted "Most Determined" by my peers in Rutgers Coding
+                    Bootcamp's class of September 2020 cohort, so I don't plan to stop trying to
+                    find the right fit anytime soon!
                   </p>
                   <p>
-                    I've built apps with only client-side code,
-                    with node/express server bases, and with React engines. Please,
-                    navigate to the portfolio page to see demonstrations.
+                    I have familiarity with HTML/CSS, Javascript, React, Node.js, Express.js,
+                    NoSQL databases like MongoDb, and SQL. Lately, I have been building projects
+                    in PHP using a SQL remote server. Please, navigate to my portfolio section to 
+                    view my work. 
                   </p>
                 </div>
               </Col>
