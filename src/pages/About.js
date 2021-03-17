@@ -28,7 +28,7 @@ function About() {
                   <p>
                     I have familiarity with HTML/CSS, Javascript, React, Node.js, Express.js,
                     NoSQL databases like MongoDb, and SQL. Lately, I have been building projects
-                    in PHP using a SQL remote server. Please, navigate to my portfolio section to 
+                    in PHP using a SQL remote server. Please, navigate to my <a href="./Portfolio">portfolio</a> section to 
                     view my work. 
                   </p>
                 </div>

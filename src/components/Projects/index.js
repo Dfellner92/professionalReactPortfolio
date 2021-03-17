@@ -15,7 +15,7 @@ function Project(props) {
             alt={props.name}
           />
           <div class="middle">
-            <div class="text">{props.summary}</div>
+            <div class="text" style={{fontSize: 13}}>{props.summary}</div>
             <br/>
             <div class="text">{props.skillsUsed}</div>
           </div>
