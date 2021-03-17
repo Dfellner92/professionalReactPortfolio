@@ -19,17 +19,14 @@ function About() {
                 />
                 <div className="bio">
                   <p>
-                    I am a student studying full-stack web development at Rutgers
-                    Coding Bootcamp. Here, I've learned that being a successful web 
-                    developer includes not just mastering technical skills, but
-                    also having a patient mindset. Listening to the voices 
-                    of collaborators and instructors, reviewing class materials, 
-                    and being able to explain myself when I have something to 
-                    contribute or ask a question have led me to excel in understanding 
-                    the course materials.
+                    Entry-level Web Developer pursuing a role in back-end development.
+                    I plan to approach a position the same way I performed in my cohort:
+                    listening to the voices of collaborators and instructors, 
+                    carefully reviewing materials, 
+                    and taking the time to make sure people understand me.
                   </p>
                   <p>
-                    Now I can confidently build apps with only client-side code,
+                    I've built apps with only client-side code,
                     with node/express server bases, and with React engines. Please,
                     navigate to the portfolio page to see demonstrations.
                   </p>
